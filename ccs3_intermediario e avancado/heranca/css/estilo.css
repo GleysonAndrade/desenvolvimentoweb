@@ -1,0 +1,34 @@
+/*Se um seletor for mais especíco que outro 
+a regra mais específica será aplicada 
+(terá precedência sobre regras mais gerais)*/
+
+/*Herança*{
+    border: 1px solid blue;
+}
+body{
+    color: red;
+    border: 1px solid blue;
+}*/
+
+/*#pagina p{
+    color: red !important;
+}
+
+#pagina p{
+    color: blue;
+}*/
+h2{
+    color: blue;
+}
+
+*{
+    color: red;
+}
+
+h2.verde{
+    color: green;
+}
+
+h2#amarelo{
+    color: yellow;
+}
