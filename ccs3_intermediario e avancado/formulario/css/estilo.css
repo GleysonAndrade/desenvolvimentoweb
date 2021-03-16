@@ -1,0 +1,23 @@
+/*Estilizando Fomúlarios*/
+body{
+    font-family: "Trebuchet MS" Helvetica, sans-serif;
+}
+
+fieldset{
+    padding: 1em;
+    border: 1px solid #ccc;
+    background: #f8f8f8;
+}
+
+legend{
+    font-weight: bold;
+}
+
+label{
+    display: block;
+    cursor: pointer;
+}
+
+input{
+    width: 20em;
+}
